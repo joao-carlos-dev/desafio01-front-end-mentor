@@ -1,0 +1,225 @@
+body {
+    background-color:   hsl(252, 40%, 67%, 0.4);
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.container {
+    max-width: 700px;
+    max-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+ .container-result {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+ }
+
+.result {
+    background-color:hsl( 241, 81%, 54%);
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.result h1 {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 22px;
+    color: hsl(0, 0%, 100%);
+}
+
+.result-number {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color:  hsl(234, 85%, 45%);
+    margin: 18px auto;
+}
+
+.result-number h2 {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-weight: 800;
+    font-size: 38px;
+    margin: 0;
+    padding-top: 32px;
+}
+
+.result-number span {
+    display: block;
+    color:   hsl(241, 100%, 89%, 0.3);
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.result h4 {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 28px;
+}
+
+.result p {
+    color:  hsl(221, 100%, 96%);
+    text-align: center;
+    font-size: 14px;
+}
+
+.summary {
+    width: 250px;
+    height: 350px;
+}
+
+.summary h3 {
+    color:  hsl(224, 30%, 27%);
+    margin: 0;
+    padding: 18px;
+}
+
+.summary ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 18px;
+}
+
+.summary ul li {
+    list-style: none;
+    border: none;
+    display: flex;
+}
+
+.summary .reaction {
+    background-color: hsl(0, 100%, 67%, 0.1);
+    width: 200px;
+    padding: 8px;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.summary .reaction h4 {
+    color:hsl(0, 100%, 67%);
+    padding-right: 40px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.summary .reaction span {
+    color:  hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+
+.summary .reaction {
+    color:  hsl(224, 30%, 27%, 0.4);
+}
+
+
+.summary .memory {
+    background-color:  hsl(39, 100%, 56%, 0.1);
+    width: 200px;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 12px;
+    justify-content: space-between;
+}
+
+.summary .memory h4 {
+    color:hsl(39, 100%, 56%);
+    padding-right: 40px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.summary .memory span {
+    color:  hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+
+.summary .memory {
+    color:  hsl(224, 30%, 27%, 0.4);
+}
+
+.summary .verbal {
+    background-color:  hsl(166, 100%, 37%, 0.1);
+    width: 200px;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 12px;
+    justify-content: space-between;
+}
+
+.summary .verbal h4 {
+    color: hsl(166, 100%, 37%);
+    padding-right: 40px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.summary .verbal span {
+    color:  hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+
+.summary .verbal {
+    color:  hsl(224, 30%, 27%, 0.4);
+}
+ .summary .visual {
+    background-color:   hsl(234, 85%, 45%, 0.1);
+    width: 200px;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 12px;
+    justify-content: space-between;
+ }
+
+ .summary .visual h4 {
+    color:  hsl(234, 85%, 45%);
+    padding-right: 40px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.summary .visual span {
+    color:  hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+
+.summary .visual {
+    color:  hsl(224, 30%, 27%, 0.4);
+}
+
+ .summary button {
+    width: 218px;
+    height: 38px;
+    border-radius: 20px;
+    background-color:   hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    margin-top: 32px;
+    margin-left: 18px;    
+ }
+
+.attribution {
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media (max-width: 375px) {
+    .container-result {
+        display: block;
+    }
+
+    .container {
+        max-width: 300px;
+        max-height: 400px;
+    }
+
+    .attribution {
+        display: none;
+    }
+
+}
